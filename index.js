@@ -32,11 +32,11 @@ const { app, BrowserWindow } = electron
  * @constant
  */
 const appRootPath = require('app-root-path')
-const dialogProvider = require('@sidneys/electron-dialog-provider')
+const dialogProvider = require('@bengennaria/electron-dialog-provider')
 const ElectronStore = require('electron-store')
-const logger = require('@sidneys/logger')({ write: true })
-const notificationProvider = require('@sidneys/electron-notification-provider')
-const platformTools = require('@sidneys/platform-tools')
+const logger = require('@bengennaria/logger')({ write: true })
+const notificationProvider = require('@bengennaria/electron-notification-provider')
+const platformTools = require('@bengennaria/platform-tools')
 const prettyBytes = require('pretty-bytes')
 const projectNameGenerator = require('project-name-generator')
 const randomInt = require('random-int')

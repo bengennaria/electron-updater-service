@@ -1,20 +1,20 @@
 {
-  "name": "@sidneys/electron-updater-service",
+  "name": "@bengennaria/electron-updater-service",
   "version": "1.47.0",
   "description": "Simplified interface for application updates.",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/sidneys/electron-updater-service",
+  "homepage": "https://github.com/bengennaria/electron-updater-service",
   "author": {
-    "name": "sidneys",
-    "email": "sidneys.github.io@outlook.com",
-    "url": "https://bitbucket.org/sidneys"
+    "name": "bengennaria",
+    "email": "ben.gennaria@gmail.com",
+    "url": "https://github.com/bengennaria"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/sidneys/electron-updater-service.git"
+    "url": "https://github.com/bengennaria/electron-updater-service.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/sidneys/electron-updater-service/issues"
+    "url": "https://github.com/bengennaria/electron-updater-service/issues"
   },
   "deprecated": false,
   "engines": {
@@ -31,10 +31,10 @@
     "tools"
   ],
   "dependencies": {
-    "@sidneys/electron-dialog-provider": "^1.137.0",
-    "@sidneys/electron-notification-provider": "0.136.0",
-    "@sidneys/logger": "^1.151.0",
-    "@sidneys/platform-tools": "^1.150.0",
+    "@bengennaria/electron-dialog-provider": "git+https://bengennaria@github.com/bengennaria/electron-dialog-provider.git",
+    "@bengennaria/electron-notification-provider": "git+https://bengennaria@github.com/bengennaria/electron-notification-provider.git",
+    "@bengennaria/logger": "git+https://bengennaria@github.com/bengennaria/logger.git",
+    "@bengennaria/platform-tools": "git+https://bengennaria@github.com/bengennaria/platform-tools.git",
     "app-root-path": "^3.0.0",
     "electron-log": "^4.3.1",
     "electron-store": "^6.0.1",
