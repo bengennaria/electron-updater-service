@@ -1,0 +1,54 @@
+{
+  "name": "@sidneys/electron-updater-service",
+  "version": "1.47.0",
+  "description": "Simplified interface for application updates.",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/sidneys/electron-updater-service",
+  "author": {
+    "name": "sidneys",
+    "email": "sidneys.github.io@outlook.com",
+    "url": "https://bitbucket.org/sidneys"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/sidneys/electron-updater-service.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/sidneys/electron-updater-service/issues"
+  },
+  "deprecated": false,
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "os": [
+    "darwin",
+    "win32",
+    "linux"
+  ],
+  "keywords": [
+    "development",
+    "tools"
+  ],
+  "dependencies": {
+    "@sidneys/electron-dialog-provider": "^1.137.0",
+    "@sidneys/electron-notification-provider": "0.136.0",
+    "@sidneys/logger": "^1.151.0",
+    "@sidneys/platform-tools": "^1.150.0",
+    "app-root-path": "^3.0.0",
+    "electron-log": "^4.3.1",
+    "electron-store": "^6.0.1",
+    "electron-updater": "^4.3.5",
+    "pretty-bytes": "^5.5.0",
+    "project-name-generator": "^2.1.9",
+    "random-int": "^2.0.1",
+    "remove-markdown": "^0.3.0",
+    "semver": "^7.3.4",
+    "semver-compare": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron": "^11.2.0",
+    "eslint": "^7.18.0"
+  },
+  "main": "index.js"
+}
