@@ -31,10 +31,10 @@
     "tools"
   ],
   "dependencies": {
-    "@bengennaria/electron-dialog-provider": "git+https://bengennaria@github.com/bengennaria/electron-dialog-provider.git",
-    "@bengennaria/electron-notification-provider": "git+https://bengennaria@github.com/bengennaria/electron-notification-provider.git",
-    "@bengennaria/logger": "git+https://bengennaria@github.com/bengennaria/logger.git",
-    "@bengennaria/platform-tools": "git+https://bengennaria@github.com/bengennaria/platform-tools.git",
+    "@bengennaria/electron-dialog-provider": "github:bengennaria/electron-dialog-provider",
+    "@bengennaria/electron-notification-provider": "github:bengennaria/electron-notification-provider",
+    "@bengennaria/logger": "github:bengennaria/logger",
+    "@bengennaria/platform-tools": "github:bengennaria/platform-tools",
     "app-root-path": "^3.0.0",
     "electron-log": "^4.3.1",
     "electron-store": "^6.0.1",
